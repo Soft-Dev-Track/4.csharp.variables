@@ -10,7 +10,22 @@ namespace Variables
     {
         public static string Hello(string name)
         {
-            return $"Hello {name}";   
+           //   
+        }
+
+        public static float AgeToFloat(int age)
+        {
+            //
+        }
+
+        public static decimal CelciusToFarenheit(int celcius)
+        {
+            //
+        }
+
+        public static decimal KilometersToMiles(int kilometers)
+        {
+            //
         }
     }
 }
