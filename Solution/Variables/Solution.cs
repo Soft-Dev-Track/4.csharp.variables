@@ -8,9 +8,9 @@ namespace Variables
 {
     public class Solution
     {
-        public static string SayHello(string name)
+        /*public static string SayHello(string name)
         {
             return $"Hello {name}";
-        }
+        }*/
     }
 }
