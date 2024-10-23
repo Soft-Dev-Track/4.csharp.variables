@@ -172,23 +172,17 @@ namespace TestFundamentals
         [Test]
         public void TestHello()
         {
-            Assert.That(Fundamentals.Solution.SayHello("John"), Is.EqualTo("Hello John"));
+            Assert.That(Variables.Solution.SayHello("John"), Is.EqualTo("Hello John"));
         }
     }
 }
 ```
 
 ```csharp
-namespace Fundamentals
+namespace Variables
 {
-    public class Program
+    public class Solution
     {
-        static void Main(string[] args)
-        {
-            // You can call the function here.
-            Console.WriteLine(SayHello("John"));
-        }
-
         public static string SayHello(string name)
         {
             return $"Hello {name}";
@@ -214,7 +208,7 @@ public void AgeToFloat()
 Write a small function to convert celcius to farenheit. Think about implicit parsing.
 
 ```csharp
- [Test]
+[Test]
 public void Test_CelciusToFarenheit()
 {
     Assert.That(Variables.Solution.CelciusToFarenheit(2),Is.EqualTo(35.6m));
@@ -235,9 +229,5 @@ public void Test_KilometersToMiles()
 
 ### 5. Random a number between 1 to 10
 Write a small function that return a random number between 1 to 10.
-
-## Next
-
-[5.Operators](5.Operators.md)
 
 ![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlrOGx1a2E2NXZ4a2ZoanB6MWhiNHFva3k3bzFpZ3R0YnptcWlqZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WemtkIRyd2JMciY3Zh/giphy.webp)
