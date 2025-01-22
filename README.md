@@ -165,12 +165,12 @@ In order to execute correctly thoses exercices, you need some basic understandin
 Write a small function to say hello to the user with his/her name. For this first exercice, I give your the solution, (of course it is an easy one).
 
 ```csharp
-namespace TestFundamentals
+namespace TestVariables
 {
     public class Tests
     {
         [Test]
-        public void TestHello()
+        public void Test_Hello()
         {
             Assert.That(Variables.Solution.SayHello("John"), Is.EqualTo("Hello John"));
         }
@@ -197,7 +197,7 @@ Write a small function to convert a age (int) to a float and divide it by two.
 
 ```csharp
 [Test]
-public void AgeToFloat()
+public void Test_AgeToFloat()
 {
     Assert.That(Variables.Solution.AgeToFloat(23),Is.EqualTo(11.5f));
 }

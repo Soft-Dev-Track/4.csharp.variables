@@ -3,13 +3,13 @@ namespace TestVariables
     public class Tests
     {
         [Test]
-        public void TestHello()
+        public void Test_Hello()
         {
             Assert.That(Variables.Solution.SayHello("John"), Is.EqualTo("Hello John"));
         }
 
         [Test]
-        public void AgeToFloat()
+        public void Test_AgeToFloat()
         {
             Assert.That(Variables.Solution.AgeToFloat(23), Is.EqualTo(11.5f));
         }
